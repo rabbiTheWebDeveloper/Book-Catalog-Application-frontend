@@ -1,106 +1,35 @@
-
-
 const Gallery = () => {
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto flex flex-wrap">
-        <div className="lg:w-2/3 mx-auto">
-          <div className="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
-            <img
-              alt="gallery"
-              className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-              src="https://dummyimage.com/820x340"
-            />
-            <div className="text-center relative z-10 w-full">
-              <h2 className="text-2xl text-gray-900 font-medium title-font mb-2">
-                Shooting Stars
-              </h2>
-              <p className="leading-relaxed">
-                Skateboard +1 mustache fixie paleo lumbersexual.
-              </p>
-              <a className="mt-3 text-indigo-500 inline-flex items-center">
-                Learn More
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  className="w-4 h-4 ml-2"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </a>
-            </div>
-          </div>
-          <div className="flex flex-wrap -mx-2">
-            <div className="px-2 w-1/2">
-              <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
-                <img
-                  alt="gallery"
-                  className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-                  src="https://dummyimage.com/542x460"
-                />
-                <div className="text-center relative z-10 w-full">
-                  <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
-                    Shooting Stars
-                  </h2>
-                  <p className="leading-relaxed">
-                    Skateboard +1 mustache fixie paleo lumbersexual.
-                  </p>
-                  <a className="mt-3 text-indigo-500 inline-flex items-center">
-                    Learn More
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="px-2 w-1/2">
-              <div className="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
-                <img
-                  alt="gallery"
-                  className="w-full object-cover h-full object-center block opacity-25 absolute inset-0"
-                  src="https://dummyimage.com/542x420"
-                />
-                <div className="text-center relative z-10 w-full">
-                  <h2 className="text-xl text-gray-900 font-medium title-font mb-2">
-                    Shooting Stars
-                  </h2>
-                  <p className="leading-relaxed">
-                    Skateboard +1 mustache fixie paleo lumbersexual.
-                  </p>
-                  <a className="mt-3 text-indigo-500 inline-flex items-center">
-                    Learn More
-                    <svg
-                      fill="none"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      className="w-4 h-4 ml-2"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M5 12h14M12 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className=" container mx-auto grid grid-cols-2 gap-2">
+      <div>
+        <img
+          className="h-auto max-w-full rounded-lg"
+          src="https://images-platform.99static.com//kjPJ8IgD7DL2OP6LksGd3_1ePJY=/293x0:1721x1428/fit-in/590x590/99designs-contests-attachments/116/116739/attachment_116739326"
+          alt=""
+        />
       </div>
-    </section>
+      <div>
+        <img
+          className="h-auto max-w-full rounded-lg"
+          src="https://goalkicker.com/JavaScriptBook/JavaScriptGrow.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          className="h-auto max-w-full rounded-lg"
+          src="https://images-platform.99static.com//FqTz4XJYgoLsSieDOxyzHjxe-wE=/0x0:2000x2000/fit-in/500x500/99designs-contests-attachments/122/122877/attachment_122877830"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          className="h-auto max-w-full rounded-lg"
+          src="https://images-platform.99static.com//kjPJ8IgD7DL2OP6LksGd3_1ePJY=/293x0:1721x1428/fit-in/590x590/99designs-contests-attachments/116/116739/attachment_116739326"
+          alt=""
+        />
+      </div>
+    </div>
   );
 };
 

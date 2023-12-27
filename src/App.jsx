@@ -2,7 +2,6 @@
 import "./App.css";
 import Banner from "./component/Banner";
 import BestBook from "./component/BestBook";
-import Brand from "./component/Brand";
 import Footer from "./component/Footer";
 import Gallery from "./component/Gallery";
 import Header from "./component/header";
@@ -14,7 +13,7 @@ function App() {
     <>
       <Header></Header>
       <Banner></Banner>
-      <Brand></Brand>
+      {/* <Brand></Brand> */}
 
       
       <BestBook></BestBook>
