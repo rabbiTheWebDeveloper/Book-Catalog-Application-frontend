@@ -1,23 +1,16 @@
-
 import "./App.css";
 import Banner from "./component/Banner";
 import BestBook from "./component/BestBook";
 import Footer from "./component/Footer";
 import Gallery from "./component/Gallery";
-import Header from "./component/header";
+import Header from "./component/Header";
 
 function App() {
- 
-
   return (
     <>
       <Header></Header>
       <Banner></Banner>
-      {/* <Brand></Brand> */}
-
-      
       <BestBook></BestBook>
-
       <Gallery></Gallery>
       <Footer></Footer>
     </>
